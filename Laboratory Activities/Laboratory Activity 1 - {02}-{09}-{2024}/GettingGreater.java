@@ -18,6 +18,6 @@ public class GettingGreater {
 
     System.out.println("Showing the ASCII Codes");
     System.out.println(char1 + " : " + (int) char1);
-    System.out.print(char1 + " : " + (int) char2);
+    System.out.print(char2 + " : " + (int) char2);
     }
 }
