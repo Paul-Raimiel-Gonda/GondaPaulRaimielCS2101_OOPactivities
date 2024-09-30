@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//yung function to get mean
 public class GetArrayMean{
     public static double getArrayMean(int[] array){
         int sum = 0;
