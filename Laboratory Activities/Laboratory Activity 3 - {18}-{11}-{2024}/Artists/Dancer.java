@@ -1,7 +1,7 @@
 public class Dancer extends Artist{
-    private String danceStyle;
+    private DanceStyle danceStyle;
 
-    public Dancer(String name, int age, String specialty, String danceStyle){
+    public Dancer(String name, int age, String specialty, DanceStyle danceStyle){
         super(name, age, specialty);
         this.danceStyle = danceStyle;
     }
