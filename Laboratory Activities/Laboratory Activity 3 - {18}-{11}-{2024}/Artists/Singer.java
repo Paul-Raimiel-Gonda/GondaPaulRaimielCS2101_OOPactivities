@@ -1,7 +1,7 @@
 public class Singer extends Artist {
-    private String genre;
+    private Genre genre;
 
-    public Singer(String name, int age, String specialty, String genre){
+    public Singer(String name, int age, String specialty, Genre genre){
         super(name, age, specialty);
         this.genre = genre;
     }
