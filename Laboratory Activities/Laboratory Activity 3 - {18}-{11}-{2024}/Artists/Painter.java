@@ -1,15 +1,15 @@
 public class Painter extends Artist{
-    private String paintingStyle;
+    private Medium medium;
 
-    public Painter(String name, int age, String specialty, String paintingStyle){
+    public Painter(String name, int age, String specialty, Medium medium){
         super(name, age, specialty);
-        this.paintingStyle = paintingStyle;
+        this.medium = medium;
     }
     public void displayDetails(){
         System.out.println("Painter's Info: ");
         System.out.println("Artist Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Specialty: " + specialty);
-        System.out.println("Painting Style: " + paintingStyle);
+        System.out.println("Medium: " + medium);
     }
 }
